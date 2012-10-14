@@ -1,0 +1,57 @@
+package ch.icaros.drs3.storage;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+
+import android.os.Environment;
+import android.util.Log;
+
+public class FileStorage {
+
+	private static String FILENAME = "songlist.txt";
+	
+	public void SaveToFile(String line)
+	{
+		File file = new File(Environment.getExternalStorageDirectory() + File.separator + FILENAME);
+		
+		if(!file.exists())
+		{
+			try {
+				file.createNewFile();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}	
+		}
+		
+		
+		//write the bytes in file
+		if(file.exists())
+		{
+		     try {
+				OutputStream fo = new FileOutputStream(file);
+				 OutputStreamWriter osw = new OutputStreamWriter(fo);
+				 osw.write(line);
+				 osw.flush();
+				    osw.close();
+			} catch (Exception e) {
+				Log.e("Test", e.getMessage(), e);
+			} 
+		    
+		}               
+
+		//deleting the file             
+		file.delete();
+		System.out.println("file deleted");
+	}
+	
+	public String[] GetLines()
+	{
+		return null;
+	}
+	
+}

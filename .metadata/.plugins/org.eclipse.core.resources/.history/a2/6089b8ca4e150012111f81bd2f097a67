@@ -1,0 +1,73 @@
+package ch.icaros.digitalradio;
+
+import java.io.InputStream;
+import java.util.Collection;
+
+import de.umass.lastfm.Caller;
+import de.umass.lastfm.ImageSize;
+import de.umass.lastfm.Track;
+import de.umass.lastfm.cache.Cache;
+
+public class LastFmCoverSearch {
+	public String searchCover(String track, String artist)
+	{
+		String urlResult = null;
+			 String key = "49175f0086374abc087b4774bc075343";
+			    
+			 Caller.getInstance().setCache(new MyCache());
+			    
+			    int limit=1;
+				track="Spirit Indestructible";
+				artist="Nelly Furtado";
+				Collection<Track> chart1 = Track.search(artist, track, limit, key);
+				
+				for (Track track2 : chart1) {
+					String url = track2.getImageURL(ImageSize.EXTRALARGE);
+					urlResult = url;
+				}
+
+		 
+		 return urlResult;
+			
+	}
+}
+
+class MyCache extends Cache
+{
+
+	@Override
+	public void clear() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean contains(String arg0) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean isExpired(String arg0) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public InputStream load(String arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void remove(String arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void store(String arg0, InputStream arg1, long arg2) {
+		// TODO Auto-generated method stub
+		
+	}
+	}

@@ -1,0 +1,9 @@
+package ch.icaros.test;
+
+public class LastFmCoverSearch {
+
+	public void searchCover()
+	{
+		
+	}
+}

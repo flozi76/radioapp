@@ -1,0 +1,5 @@
+package ch.icaros.drs3.storage;
+
+public class FileStorage {
+
+}

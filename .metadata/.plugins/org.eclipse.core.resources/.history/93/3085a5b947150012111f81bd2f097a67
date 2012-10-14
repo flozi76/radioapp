@@ -1,0 +1,39 @@
+package ch.icaros.test;
+
+import java.io.Console;
+import java.util.Collection;
+
+import de.umass.lastfm.Album;
+import de.umass.lastfm.Artist;
+import de.umass.lastfm.Chart;
+import de.umass.lastfm.ImageSize;
+import de.umass.lastfm.Track;
+import de.umass.lastfm.User;
+
+public class LastFmCoverSearch {
+
+	public void searchCover()
+	{
+		 try {
+			String keyT = "b25b959554ed76058ac220b7b2e0a026"; //this is the key used in the Last.fm API examples
+			 String key = "49175f0086374abc087b4774bc075343";
+			    String user = "JRoar";
+//		    Chart<Artist> chart = User.getWeeklyArtistChart(user, 10, key);
+			    
+			    
+			    int limit=1;
+				String track="spirit indestructible";
+				String artist="Nelly furtado";
+				Collection<Track> chart1 = Track.search(artist, track, limit, key);
+				
+				for (Track track2 : chart1) {
+					String url = track2.getImageURL(ImageSize.ORIGINAL);
+					System.out.println(url);
+				}
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+			
+	}
+}

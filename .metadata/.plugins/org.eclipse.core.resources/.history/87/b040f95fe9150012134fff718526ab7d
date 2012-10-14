@@ -1,0 +1,16 @@
+package ch.icaros.drs3.storage;
+
+public class FileStorage {
+
+	private static FILE = "songlist.txt";
+	public void SaveToFile(String line)
+	{
+		
+	}
+	
+	public String[] GetLines()
+	{
+		return null;
+	}
+	
+}

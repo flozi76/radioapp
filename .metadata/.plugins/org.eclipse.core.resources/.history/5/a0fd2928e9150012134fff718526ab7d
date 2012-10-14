@@ -1,0 +1,15 @@
+package ch.icaros.drs3.storage;
+
+public class FileStorage {
+
+	public void SaveToFile(String line)
+	{
+		
+	}
+	
+	public String[] GetLines()
+	{
+		return null;
+	}
+	
+}

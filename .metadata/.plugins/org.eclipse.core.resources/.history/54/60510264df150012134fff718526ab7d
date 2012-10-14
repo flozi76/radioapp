@@ -1,0 +1,357 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ch.icaros.drs3"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="15" />
+    <uses-configuration />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service android:name="Drs3OnAirService" android:icon="@drawable/ic_launcher" android:permission="android.permission.INTERNET"></service>
+    </application>
+
+</manifest>10-14 10:59:06.685: D/CLIPBOARD(18490): Hide Clipboard dialog at Starting input: finished by someone else... !
+10-14 10:59:48.505: D/CLIPBOARD(19633): Hide Clipboard dialog at Starting input: finished by someone else... !
+10-14 10:59:49.000: D/dalvikvm(19633): GC_CONCURRENT freed 266K, 4% free 8974K/9287K, paused 2ms+2ms
+10-14 10:59:49.150: I/DRS 3 Player(19633): {0}:{1}
+10-14 10:59:49.160: I/de.umass.lastfm.Caller(19633): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 10:59:49.205: I/de.umass.lastfm.Caller(19633): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 10:59:49.480: D/dalvikvm(19633): GC_CONCURRENT freed 360K, 5% free 9015K/9479K, paused 1ms+2ms
+10-14 10:59:50.470: D/dalvikvm(19633): GC_FOR_ALLOC freed 58K, 5% free 9048K/9479K, paused 39ms
+10-14 10:59:50.470: I/dalvikvm-heap(19633): Grow heap (frag case) to 9.220MB for 360016-byte allocation
+10-14 10:59:50.485: D/dalvikvm(19633): GC_FOR_ALLOC freed <1K, 5% free 9400K/9863K, paused 11ms
+10-14 10:59:51.175: I/DRS 3 Player(19633): {0}:{1}
+10-14 10:59:51.175: I/de.umass.lastfm.Caller(19633): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 10:59:51.260: I/de.umass.lastfm.Caller(19633): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 10:59:51.290: D/dalvikvm(19633): GC_CONCURRENT freed 459K, 6% free 9373K/9927K, paused 3ms+4ms
+10-14 10:59:51.695: D/dalvikvm(19633): GC_FOR_ALLOC freed 86K, 6% free 9407K/9927K, paused 35ms
+10-14 10:59:51.695: I/dalvikvm-heap(19633): Grow heap (frag case) to 9.571MB for 360016-byte allocation
+10-14 10:59:51.725: D/dalvikvm(19633): GC_FOR_ALLOC freed <1K, 6% free 9758K/10311K, paused 27ms
+10-14 10:59:59.340: I/DRS 3 Player(19633): {0}:{1}
+10-14 10:59:59.340: I/de.umass.lastfm.Caller(19633): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 10:59:59.375: I/de.umass.lastfm.Caller(19633): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 10:59:59.670: D/dalvikvm(19633): GC_CONCURRENT freed 818K, 9% free 9407K/10311K, paused 8ms+3ms
+10-14 10:59:59.735: D/dalvikvm(19633): GC_CONCURRENT freed 80K, 6% free 9761K/10311K, paused 2ms+2ms
+10-14 11:00:09.145: I/DRS 3 Player(19633): {0}:{1}
+10-14 11:00:09.145: I/de.umass.lastfm.Caller(19633): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:00:09.195: I/de.umass.lastfm.Caller(19633): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 11:00:09.465: D/dalvikvm(19633): GC_CONCURRENT freed 817K, 9% free 9409K/10311K, paused 7ms+8ms
+10-14 11:00:09.610: D/dalvikvm(19633): GC_CONCURRENT freed 80K, 6% free 9762K/10311K, paused 3ms+1ms
+10-14 11:00:17.260: I/DRS 3 Player(19633): {0}:{1}
+10-14 11:00:17.265: I/de.umass.lastfm.Caller(19633): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:00:17.285: D/dalvikvm(19633): GC_CONCURRENT freed 880K, 9% free 9386K/10311K, paused 7ms+2ms
+10-14 11:00:17.305: I/de.umass.lastfm.Caller(19633): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 11:00:17.690: D/dalvikvm(19633): GC_CONCURRENT freed 120K, 6% free 9766K/10311K, paused 4ms+5ms
+10-14 11:00:29.040: I/DRS 3 Player(19633): {0}:{1}
+10-14 11:00:29.040: I/de.umass.lastfm.Caller(19633): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:00:29.095: I/de.umass.lastfm.Caller(19633): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 11:00:29.525: D/dalvikvm(19633): GC_CONCURRENT freed 818K, 9% free 9412K/10311K, paused 6ms+8ms
+10-14 11:00:29.600: D/dalvikvm(19633): GC_CONCURRENT freed 80K, 6% free 9766K/10311K, paused 2ms+1ms
+10-14 11:00:49.010: I/DRS 3 Player(19633): {0}:{1}
+10-14 11:00:49.020: I/de.umass.lastfm.Caller(19633): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:00:49.065: I/de.umass.lastfm.Caller(19633): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 11:00:49.425: D/dalvikvm(19633): GC_CONCURRENT freed 817K, 9% free 9412K/10311K, paused 3ms+3ms
+10-14 11:00:49.525: D/dalvikvm(19633): GC_CONCURRENT freed 80K, 6% free 9766K/10311K, paused 4ms+2ms
+10-14 11:01:08.960: I/DRS 3 Player(19633): {0}:{1}
+10-14 11:01:08.960: I/de.umass.lastfm.Caller(19633): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:01:09.000: I/de.umass.lastfm.Caller(19633): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 11:01:09.315: D/dalvikvm(19633): GC_CONCURRENT freed 817K, 9% free 9412K/10311K, paused 6ms+16ms
+10-14 11:01:09.495: D/dalvikvm(19633): GC_CONCURRENT freed 80K, 6% free 9766K/10311K, paused 7ms+1ms
+10-14 11:01:29.045: I/DRS 3 Player(19633): {0}:{1}
+10-14 11:01:29.045: I/de.umass.lastfm.Caller(19633): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:01:29.085: I/de.umass.lastfm.Caller(19633): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 11:01:29.365: D/dalvikvm(19633): GC_CONCURRENT freed 817K, 9% free 9412K/10311K, paused 6ms+8ms
+10-14 11:01:29.435: D/dalvikvm(19633): GC_CONCURRENT freed 80K, 6% free 9766K/10311K, paused 3ms+2ms
+10-14 11:01:48.810: I/DRS 3 Player(19633): {0}:{1}
+10-14 11:01:48.810: I/de.umass.lastfm.Caller(19633): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:01:48.850: I/de.umass.lastfm.Caller(19633): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 11:01:49.155: D/dalvikvm(19633): GC_CONCURRENT freed 818K, 9% free 9412K/10311K, paused 7ms+7ms
+10-14 11:01:49.350: D/dalvikvm(19633): GC_CONCURRENT freed 80K, 6% free 9766K/10311K, paused 7ms+2ms
+10-14 11:02:09.045: I/DRS 3 Player(19633): {0}:{1}
+10-14 11:02:09.045: I/de.umass.lastfm.Caller(19633): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:02:09.085: I/de.umass.lastfm.Caller(19633): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 11:02:09.430: D/dalvikvm(19633): GC_CONCURRENT freed 817K, 9% free 9412K/10311K, paused 6ms+7ms
+10-14 11:02:09.615: D/dalvikvm(19633): GC_CONCURRENT freed 80K, 6% free 9766K/10311K, paused 29ms+1ms
+10-14 11:02:29.345: I/DRS 3 Player(19633): {0}:{1}
+10-14 11:02:29.345: I/de.umass.lastfm.Caller(19633): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:02:29.390: I/de.umass.lastfm.Caller(19633): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 11:02:29.700: D/dalvikvm(19633): GC_CONCURRENT freed 817K, 9% free 9412K/10311K, paused 6ms+8ms
+10-14 11:02:29.775: D/dalvikvm(19633): GC_CONCURRENT freed 80K, 6% free 9766K/10311K, paused 1ms+2ms
+10-14 11:02:40.195: D/CLIPBOARD(19633): Hide Clipboard dialog at Starting input: finished by someone else... !
+10-14 11:02:49.150: I/DRS 3 Player(19633): {0}:{1}
+10-14 11:02:49.150: I/de.umass.lastfm.Caller(19633): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:02:49.185: I/de.umass.lastfm.Caller(19633): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 11:02:52.740: W/ActivityThread(20028): Application ch.icaros.drs3 is waiting for the debugger on port 8100...
+10-14 11:02:52.760: I/System.out(20028): Sending WAIT chunk
+10-14 11:02:52.775: I/dalvikvm(20028): Debugger is active
+10-14 11:02:52.960: I/System.out(20028): Debugger has connected
+10-14 11:02:52.960: I/System.out(20028): waiting for debugger to settle...
+10-14 11:02:53.160: I/System.out(20028): waiting for debugger to settle...
+10-14 11:02:53.360: I/System.out(20028): waiting for debugger to settle...
+10-14 11:02:53.560: I/System.out(20028): waiting for debugger to settle...
+10-14 11:02:53.760: I/System.out(20028): waiting for debugger to settle...
+10-14 11:02:53.960: I/System.out(20028): waiting for debugger to settle...
+10-14 11:02:54.165: I/System.out(20028): waiting for debugger to settle...
+10-14 11:02:54.365: I/System.out(20028): waiting for debugger to settle...
+10-14 11:02:54.565: I/System.out(20028): debugger has settled (1455)
+10-14 11:02:54.810: D/dalvikvm(20028): threadid=11: still suspended after undo (sc=1 dc=1)
+10-14 11:02:54.895: D/dalvikvm(20028): threadid=11: still suspended after undo (sc=1 dc=1)
+10-14 11:03:04.675: D/dalvikvm(20028): GC_CONCURRENT freed 271K, 4% free 8970K/9287K, paused 3ms+2ms
+10-14 11:03:05.430: I/DRS 3 Player(20028): AM ÄNDI VOM TAG: BAZE
+10-14 11:03:10.875: I/de.umass.lastfm.Caller(20028): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:03:10.975: I/de.umass.lastfm.Caller(20028): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 11:03:11.455: D/dalvikvm(20028): GC_CONCURRENT freed 372K, 5% free 9006K/9479K, paused 3ms+2ms
+10-14 11:03:18.780: D/CLIPBOARD(20028): Hide Clipboard dialog at Starting input: finished by someone else... !
+10-14 11:03:26.710: D/dalvikvm(20028): GC_FOR_ALLOC freed 36K, 5% free 9051K/9479K, paused 20ms
+10-14 11:03:26.715: I/dalvikvm-heap(20028): Grow heap (frag case) to 9.222MB for 360016-byte allocation
+10-14 11:03:26.750: D/dalvikvm(20028): GC_FOR_ALLOC freed 1K, 5% free 9401K/9863K, paused 23ms
+10-14 11:03:28.455: I/DRS 3 Player(20028): AM ÄNDI VOM TAG: BAZE
+10-14 11:03:28.455: I/de.umass.lastfm.Caller(20028): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:03:28.510: I/de.umass.lastfm.Caller(20028): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 11:03:28.535: D/dalvikvm(20028): GC_CONCURRENT freed 457K, 6% free 9375K/9927K, paused 3ms+2ms
+10-14 11:03:29.035: D/dalvikvm(20028): GC_FOR_ALLOC freed 87K, 6% free 9408K/9927K, paused 20ms
+10-14 11:03:29.035: I/dalvikvm-heap(20028): Grow heap (frag case) to 9.572MB for 360016-byte allocation
+10-14 11:03:29.055: D/dalvikvm(20028): GC_FOR_ALLOC freed <1K, 6% free 9759K/10311K, paused 17ms
+10-14 11:03:30.660: I/DRS 3 Player(20028): Radio. Im Internet unter www.drs3.ch.: DRS 3, Dein Live
+10-14 11:03:30.665: I/de.umass.lastfm.Caller(20028): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:03:30.705: I/de.umass.lastfm.Caller(20028): Post body: method=track.search&track=Radio.+Im+Internet+unter+www.drs3.ch.&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=DRS+3%2C+Dein+Live
+10-14 11:03:31.425: D/dalvikvm(20028): GC_CONCURRENT freed 818K, 9% free 9409K/10311K, paused 1ms+1ms
+10-14 11:03:31.610: I/de.umass.lastfm.Caller(20028): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:03:31.650: I/de.umass.lastfm.Caller(20028): Post body: method=artist.search&api_key=49175f0086374abc087b4774bc075343&artist=DRS+3%2C+Dein+Live
+10-14 11:03:32.265: D/dalvikvm(20028): GC_FOR_ALLOC freed 201K, 9% free 9411K/10311K, paused 23ms
+10-14 11:03:32.270: I/dalvikvm-heap(20028): Grow heap (frag case) to 9.725MB for 517736-byte allocation
+10-14 11:03:32.305: D/dalvikvm(20028): GC_CONCURRENT freed <1K, 9% free 9916K/10823K, paused 3ms+3ms
+10-14 11:03:36.455: D/dalvikvm(20028): GC_CONCURRENT freed 766K, 12% free 9537K/10823K, paused 3ms+2ms
+10-14 11:03:36.475: I/DRS 3 Player(20028): Radio. Im Internet unter www.drs3.ch.: DRS 3, Dein Live
+10-14 11:03:36.475: I/de.umass.lastfm.Caller(20028): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:03:36.515: I/de.umass.lastfm.Caller(20028): Post body: method=track.search&track=Radio.+Im+Internet+unter+www.drs3.ch.&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=DRS+3%2C+Dein+Live
+10-14 11:03:36.990: I/de.umass.lastfm.Caller(20028): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:03:37.035: I/de.umass.lastfm.Caller(20028): Post body: method=artist.search&api_key=49175f0086374abc087b4774bc075343&artist=DRS+3%2C+Dein+Live
+10-14 11:03:37.545: D/dalvikvm(20028): GC_FOR_ALLOC freed 252K, 12% free 9569K/10823K, paused 21ms
+10-14 11:03:37.545: I/dalvikvm-heap(20028): Grow heap (frag case) to 9.879MB for 517736-byte allocation
+10-14 11:03:37.575: D/dalvikvm(20028): GC_CONCURRENT freed 1K, 12% free 10073K/11335K, paused 2ms+2ms
+10-14 11:03:53.080: D/dalvikvm(20028): GC_CONCURRENT freed 919K, 16% free 9539K/11335K, paused 1ms+2ms
+10-14 11:03:53.115: I/DRS 3 Player(20028): Radio. Im Internet unter www.drs3.ch.: DRS 3, Dein Live
+10-14 11:03:53.115: I/de.umass.lastfm.Caller(20028): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:03:53.160: I/de.umass.lastfm.Caller(20028): Post body: method=track.search&track=Radio.+Im+Internet+unter+www.drs3.ch.&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=DRS+3%2C+Dein+Live
+10-14 11:03:53.625: I/de.umass.lastfm.Caller(20028): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:03:53.670: I/de.umass.lastfm.Caller(20028): Post body: method=artist.search&api_key=49175f0086374abc087b4774bc075343&artist=DRS+3%2C+Dein+Live
+10-14 11:03:54.255: D/dalvikvm(20028): GC_FOR_ALLOC freed 257K, 16% free 9572K/11335K, paused 21ms
+10-14 11:03:54.280: D/dalvikvm(20028): GC_CONCURRENT freed 1K, 12% free 10077K/11335K, paused 2ms+2ms
+10-14 11:03:55.575: D/dalvikvm(20028): GC_CONCURRENT freed 925K, 16% free 9541K/11335K, paused 2ms+2ms
+10-14 11:03:55.860: I/DRS 3 Player(20028): Radio. Im Internet unter www.drs3.ch.: DRS 3, Dein Live
+10-14 11:03:55.865: I/de.umass.lastfm.Caller(20028): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:03:55.905: I/de.umass.lastfm.Caller(20028): Post body: method=track.search&track=Radio.+Im+Internet+unter+www.drs3.ch.&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=DRS+3%2C+Dein+Live
+10-14 11:03:56.685: I/de.umass.lastfm.Caller(20028): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:03:56.725: I/de.umass.lastfm.Caller(20028): Post body: method=artist.search&api_key=49175f0086374abc087b4774bc075343&artist=DRS+3%2C+Dein+Live
+10-14 11:03:57.070: E/DRS 3 Player(20028): de.umass.lastfm.CallException: org.xml.sax.SAXParseException: Unexpected token (position:TEXT {"nowplaying":{"...@2:1 in java.io.InputStreamReader@4156f5e8) 
+10-14 11:03:57.070: E/DRS 3 Player(20028): de.umass.lastfm.CallException: org.xml.sax.SAXParseException: Unexpected token (position:TEXT {"nowplaying":{"...@2:1 in java.io.InputStreamReader@4156f5e8) 
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at de.umass.lastfm.Caller.call(Caller.java:268)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at de.umass.lastfm.Caller.call(Caller.java:189)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at de.umass.lastfm.Caller.call(Caller.java:185)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at de.umass.lastfm.Artist.search(Artist.java:156)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at ch.icaros.drs3.LastFmCoverSearch.searchCover(LastFmCoverSearch.java:34)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at ch.icaros.drs3.MainActivity$DownloadCoverPicture.doInBackground(MainActivity.java:125)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at ch.icaros.drs3.MainActivity$DownloadCoverPicture.doInBackground(MainActivity.java:1)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at android.os.AsyncTask$2.call(AsyncTask.java:264)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:208)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at java.lang.Thread.run(Thread.java:856)
+10-14 11:03:57.070: E/DRS 3 Player(20028): Caused by: org.xml.sax.SAXParseException: Unexpected token (position:TEXT {"nowplaying":{"...@2:1 in java.io.InputStreamReader@4156f5e8) 
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at org.apache.harmony.xml.parsers.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:146)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at de.umass.lastfm.Caller.createResultFromInputStream(Caller.java:324)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at de.umass.lastfm.Caller.call(Caller.java:256)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	... 13 more
+10-14 11:03:57.180: D/dalvikvm(20028): GC_CONCURRENT freed 317K, 16% free 9609K/11335K, paused 4ms+3ms
+10-14 11:03:57.230: D/dalvikvm(20028): GC_CONCURRENT freed <1K, 11% free 10114K/11335K, paused 2ms+3ms
+10-14 11:03:58.730: D/dalvikvm(20028): GC_CONCURRENT freed 927K, 16% free 9577K/11335K, paused 2ms+2ms
+10-14 11:03:58.735: I/DRS 3 Player(20028): Radio. Im Internet unter www.drs3.ch.: DRS 3, Dein Live
+10-14 11:03:58.740: I/de.umass.lastfm.Caller(20028): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:03:58.785: I/de.umass.lastfm.Caller(20028): Post body: method=track.search&track=Radio.+Im+Internet+unter+www.drs3.ch.&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=DRS+3%2C+Dein+Live
+10-14 11:03:59.275: I/de.umass.lastfm.Caller(20028): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:03:59.320: I/de.umass.lastfm.Caller(20028): Post body: method=artist.search&api_key=49175f0086374abc087b4774bc075343&artist=DRS+3%2C+Dein+Live
+10-14 11:03:59.875: D/dalvikvm(20028): GC_FOR_ALLOC freed 249K, 16% free 9605K/11335K, paused 26ms
+10-14 11:03:59.915: D/dalvikvm(20028): GC_CONCURRENT freed 1K, 11% free 10110K/11335K, paused 3ms+2ms
+10-14 10:59:06.685: D/CLIPBOARD(18490): Hide Clipboard dialog at Starting input: finished by someone else... !
+10-14 10:59:48.505: D/CLIPBOARD(19633): Hide Clipboard dialog at Starting input: finished by someone else... !
+10-14 10:59:49.000: D/dalvikvm(19633): GC_CONCURRENT freed 266K, 4% free 8974K/9287K, paused 2ms+2ms
+10-14 10:59:49.150: I/DRS 3 Player(19633): {0}:{1}
+10-14 10:59:49.160: I/de.umass.lastfm.Caller(19633): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 10:59:49.205: I/de.umass.lastfm.Caller(19633): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 10:59:49.480: D/dalvikvm(19633): GC_CONCURRENT freed 360K, 5% free 9015K/9479K, paused 1ms+2ms
+10-14 10:59:50.470: D/dalvikvm(19633): GC_FOR_ALLOC freed 58K, 5% free 9048K/9479K, paused 39ms
+10-14 10:59:50.470: I/dalvikvm-heap(19633): Grow heap (frag case) to 9.220MB for 360016-byte allocation
+10-14 10:59:50.485: D/dalvikvm(19633): GC_FOR_ALLOC freed <1K, 5% free 9400K/9863K, paused 11ms
+10-14 10:59:51.175: I/DRS 3 Player(19633): {0}:{1}
+10-14 10:59:51.175: I/de.umass.lastfm.Caller(19633): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 10:59:51.260: I/de.umass.lastfm.Caller(19633): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 10:59:51.290: D/dalvikvm(19633): GC_CONCURRENT freed 459K, 6% free 9373K/9927K, paused 3ms+4ms
+10-14 10:59:51.695: D/dalvikvm(19633): GC_FOR_ALLOC freed 86K, 6% free 9407K/9927K, paused 35ms
+10-14 10:59:51.695: I/dalvikvm-heap(19633): Grow heap (frag case) to 9.571MB for 360016-byte allocation
+10-14 10:59:51.725: D/dalvikvm(19633): GC_FOR_ALLOC freed <1K, 6% free 9758K/10311K, paused 27ms
+10-14 10:59:59.340: I/DRS 3 Player(19633): {0}:{1}
+10-14 10:59:59.340: I/de.umass.lastfm.Caller(19633): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 10:59:59.375: I/de.umass.lastfm.Caller(19633): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 10:59:59.670: D/dalvikvm(19633): GC_CONCURRENT freed 818K, 9% free 9407K/10311K, paused 8ms+3ms
+10-14 10:59:59.735: D/dalvikvm(19633): GC_CONCURRENT freed 80K, 6% free 9761K/10311K, paused 2ms+2ms
+10-14 11:00:09.145: I/DRS 3 Player(19633): {0}:{1}
+10-14 11:00:09.145: I/de.umass.lastfm.Caller(19633): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:00:09.195: I/de.umass.lastfm.Caller(19633): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 11:00:09.465: D/dalvikvm(19633): GC_CONCURRENT freed 817K, 9% free 9409K/10311K, paused 7ms+8ms
+10-14 11:00:09.610: D/dalvikvm(19633): GC_CONCURRENT freed 80K, 6% free 9762K/10311K, paused 3ms+1ms
+10-14 11:00:17.260: I/DRS 3 Player(19633): {0}:{1}
+10-14 11:00:17.265: I/de.umass.lastfm.Caller(19633): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:00:17.285: D/dalvikvm(19633): GC_CONCURRENT freed 880K, 9% free 9386K/10311K, paused 7ms+2ms
+10-14 11:00:17.305: I/de.umass.lastfm.Caller(19633): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 11:00:17.690: D/dalvikvm(19633): GC_CONCURRENT freed 120K, 6% free 9766K/10311K, paused 4ms+5ms
+10-14 11:00:29.040: I/DRS 3 Player(19633): {0}:{1}
+10-14 11:00:29.040: I/de.umass.lastfm.Caller(19633): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:00:29.095: I/de.umass.lastfm.Caller(19633): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 11:00:29.525: D/dalvikvm(19633): GC_CONCURRENT freed 818K, 9% free 9412K/10311K, paused 6ms+8ms
+10-14 11:00:29.600: D/dalvikvm(19633): GC_CONCURRENT freed 80K, 6% free 9766K/10311K, paused 2ms+1ms
+10-14 11:00:49.010: I/DRS 3 Player(19633): {0}:{1}
+10-14 11:00:49.020: I/de.umass.lastfm.Caller(19633): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:00:49.065: I/de.umass.lastfm.Caller(19633): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 11:00:49.425: D/dalvikvm(19633): GC_CONCURRENT freed 817K, 9% free 9412K/10311K, paused 3ms+3ms
+10-14 11:00:49.525: D/dalvikvm(19633): GC_CONCURRENT freed 80K, 6% free 9766K/10311K, paused 4ms+2ms
+10-14 11:01:08.960: I/DRS 3 Player(19633): {0}:{1}
+10-14 11:01:08.960: I/de.umass.lastfm.Caller(19633): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:01:09.000: I/de.umass.lastfm.Caller(19633): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 11:01:09.315: D/dalvikvm(19633): GC_CONCURRENT freed 817K, 9% free 9412K/10311K, paused 6ms+16ms
+10-14 11:01:09.495: D/dalvikvm(19633): GC_CONCURRENT freed 80K, 6% free 9766K/10311K, paused 7ms+1ms
+10-14 11:01:29.045: I/DRS 3 Player(19633): {0}:{1}
+10-14 11:01:29.045: I/de.umass.lastfm.Caller(19633): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:01:29.085: I/de.umass.lastfm.Caller(19633): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 11:01:29.365: D/dalvikvm(19633): GC_CONCURRENT freed 817K, 9% free 9412K/10311K, paused 6ms+8ms
+10-14 11:01:29.435: D/dalvikvm(19633): GC_CONCURRENT freed 80K, 6% free 9766K/10311K, paused 3ms+2ms
+10-14 11:01:48.810: I/DRS 3 Player(19633): {0}:{1}
+10-14 11:01:48.810: I/de.umass.lastfm.Caller(19633): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:01:48.850: I/de.umass.lastfm.Caller(19633): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 11:01:49.155: D/dalvikvm(19633): GC_CONCURRENT freed 818K, 9% free 9412K/10311K, paused 7ms+7ms
+10-14 11:01:49.350: D/dalvikvm(19633): GC_CONCURRENT freed 80K, 6% free 9766K/10311K, paused 7ms+2ms
+10-14 11:02:09.045: I/DRS 3 Player(19633): {0}:{1}
+10-14 11:02:09.045: I/de.umass.lastfm.Caller(19633): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:02:09.085: I/de.umass.lastfm.Caller(19633): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 11:02:09.430: D/dalvikvm(19633): GC_CONCURRENT freed 817K, 9% free 9412K/10311K, paused 6ms+7ms
+10-14 11:02:09.615: D/dalvikvm(19633): GC_CONCURRENT freed 80K, 6% free 9766K/10311K, paused 29ms+1ms
+10-14 11:02:29.345: I/DRS 3 Player(19633): {0}:{1}
+10-14 11:02:29.345: I/de.umass.lastfm.Caller(19633): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:02:29.390: I/de.umass.lastfm.Caller(19633): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 11:02:29.700: D/dalvikvm(19633): GC_CONCURRENT freed 817K, 9% free 9412K/10311K, paused 6ms+8ms
+10-14 11:02:29.775: D/dalvikvm(19633): GC_CONCURRENT freed 80K, 6% free 9766K/10311K, paused 1ms+2ms
+10-14 11:02:40.195: D/CLIPBOARD(19633): Hide Clipboard dialog at Starting input: finished by someone else... !
+10-14 11:02:49.150: I/DRS 3 Player(19633): {0}:{1}
+10-14 11:02:49.150: I/de.umass.lastfm.Caller(19633): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:02:49.185: I/de.umass.lastfm.Caller(19633): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 11:02:52.740: W/ActivityThread(20028): Application ch.icaros.drs3 is waiting for the debugger on port 8100...
+10-14 11:02:52.760: I/System.out(20028): Sending WAIT chunk
+10-14 11:02:52.775: I/dalvikvm(20028): Debugger is active
+10-14 11:02:52.960: I/System.out(20028): Debugger has connected
+10-14 11:02:52.960: I/System.out(20028): waiting for debugger to settle...
+10-14 11:02:53.160: I/System.out(20028): waiting for debugger to settle...
+10-14 11:02:53.360: I/System.out(20028): waiting for debugger to settle...
+10-14 11:02:53.560: I/System.out(20028): waiting for debugger to settle...
+10-14 11:02:53.760: I/System.out(20028): waiting for debugger to settle...
+10-14 11:02:53.960: I/System.out(20028): waiting for debugger to settle...
+10-14 11:02:54.165: I/System.out(20028): waiting for debugger to settle...
+10-14 11:02:54.365: I/System.out(20028): waiting for debugger to settle...
+10-14 11:02:54.565: I/System.out(20028): debugger has settled (1455)
+10-14 11:02:54.810: D/dalvikvm(20028): threadid=11: still suspended after undo (sc=1 dc=1)
+10-14 11:02:54.895: D/dalvikvm(20028): threadid=11: still suspended after undo (sc=1 dc=1)
+10-14 11:03:04.675: D/dalvikvm(20028): GC_CONCURRENT freed 271K, 4% free 8970K/9287K, paused 3ms+2ms
+10-14 11:03:05.430: I/DRS 3 Player(20028): AM ÄNDI VOM TAG: BAZE
+10-14 11:03:10.875: I/de.umass.lastfm.Caller(20028): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:03:10.975: I/de.umass.lastfm.Caller(20028): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 11:03:11.455: D/dalvikvm(20028): GC_CONCURRENT freed 372K, 5% free 9006K/9479K, paused 3ms+2ms
+10-14 11:03:18.780: D/CLIPBOARD(20028): Hide Clipboard dialog at Starting input: finished by someone else... !
+10-14 11:03:26.710: D/dalvikvm(20028): GC_FOR_ALLOC freed 36K, 5% free 9051K/9479K, paused 20ms
+10-14 11:03:26.715: I/dalvikvm-heap(20028): Grow heap (frag case) to 9.222MB for 360016-byte allocation
+10-14 11:03:26.750: D/dalvikvm(20028): GC_FOR_ALLOC freed 1K, 5% free 9401K/9863K, paused 23ms
+10-14 11:03:28.455: I/DRS 3 Player(20028): AM ÄNDI VOM TAG: BAZE
+10-14 11:03:28.455: I/de.umass.lastfm.Caller(20028): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:03:28.510: I/de.umass.lastfm.Caller(20028): Post body: method=track.search&track=AM+%C3%84NDI+VOM+TAG&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=BAZE
+10-14 11:03:28.535: D/dalvikvm(20028): GC_CONCURRENT freed 457K, 6% free 9375K/9927K, paused 3ms+2ms
+10-14 11:03:29.035: D/dalvikvm(20028): GC_FOR_ALLOC freed 87K, 6% free 9408K/9927K, paused 20ms
+10-14 11:03:29.035: I/dalvikvm-heap(20028): Grow heap (frag case) to 9.572MB for 360016-byte allocation
+10-14 11:03:29.055: D/dalvikvm(20028): GC_FOR_ALLOC freed <1K, 6% free 9759K/10311K, paused 17ms
+10-14 11:03:30.660: I/DRS 3 Player(20028): Radio. Im Internet unter www.drs3.ch.: DRS 3, Dein Live
+10-14 11:03:30.665: I/de.umass.lastfm.Caller(20028): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:03:30.705: I/de.umass.lastfm.Caller(20028): Post body: method=track.search&track=Radio.+Im+Internet+unter+www.drs3.ch.&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=DRS+3%2C+Dein+Live
+10-14 11:03:31.425: D/dalvikvm(20028): GC_CONCURRENT freed 818K, 9% free 9409K/10311K, paused 1ms+1ms
+10-14 11:03:31.610: I/de.umass.lastfm.Caller(20028): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:03:31.650: I/de.umass.lastfm.Caller(20028): Post body: method=artist.search&api_key=49175f0086374abc087b4774bc075343&artist=DRS+3%2C+Dein+Live
+10-14 11:03:32.265: D/dalvikvm(20028): GC_FOR_ALLOC freed 201K, 9% free 9411K/10311K, paused 23ms
+10-14 11:03:32.270: I/dalvikvm-heap(20028): Grow heap (frag case) to 9.725MB for 517736-byte allocation
+10-14 11:03:32.305: D/dalvikvm(20028): GC_CONCURRENT freed <1K, 9% free 9916K/10823K, paused 3ms+3ms
+10-14 11:03:36.455: D/dalvikvm(20028): GC_CONCURRENT freed 766K, 12% free 9537K/10823K, paused 3ms+2ms
+10-14 11:03:36.475: I/DRS 3 Player(20028): Radio. Im Internet unter www.drs3.ch.: DRS 3, Dein Live
+10-14 11:03:36.475: I/de.umass.lastfm.Caller(20028): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:03:36.515: I/de.umass.lastfm.Caller(20028): Post body: method=track.search&track=Radio.+Im+Internet+unter+www.drs3.ch.&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=DRS+3%2C+Dein+Live
+10-14 11:03:36.990: I/de.umass.lastfm.Caller(20028): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:03:37.035: I/de.umass.lastfm.Caller(20028): Post body: method=artist.search&api_key=49175f0086374abc087b4774bc075343&artist=DRS+3%2C+Dein+Live
+10-14 11:03:37.545: D/dalvikvm(20028): GC_FOR_ALLOC freed 252K, 12% free 9569K/10823K, paused 21ms
+10-14 11:03:37.545: I/dalvikvm-heap(20028): Grow heap (frag case) to 9.879MB for 517736-byte allocation
+10-14 11:03:37.575: D/dalvikvm(20028): GC_CONCURRENT freed 1K, 12% free 10073K/11335K, paused 2ms+2ms
+10-14 11:03:53.080: D/dalvikvm(20028): GC_CONCURRENT freed 919K, 16% free 9539K/11335K, paused 1ms+2ms
+10-14 11:03:53.115: I/DRS 3 Player(20028): Radio. Im Internet unter www.drs3.ch.: DRS 3, Dein Live
+10-14 11:03:53.115: I/de.umass.lastfm.Caller(20028): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:03:53.160: I/de.umass.lastfm.Caller(20028): Post body: method=track.search&track=Radio.+Im+Internet+unter+www.drs3.ch.&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=DRS+3%2C+Dein+Live
+10-14 11:03:53.625: I/de.umass.lastfm.Caller(20028): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:03:53.670: I/de.umass.lastfm.Caller(20028): Post body: method=artist.search&api_key=49175f0086374abc087b4774bc075343&artist=DRS+3%2C+Dein+Live
+10-14 11:03:54.255: D/dalvikvm(20028): GC_FOR_ALLOC freed 257K, 16% free 9572K/11335K, paused 21ms
+10-14 11:03:54.280: D/dalvikvm(20028): GC_CONCURRENT freed 1K, 12% free 10077K/11335K, paused 2ms+2ms
+10-14 11:03:55.575: D/dalvikvm(20028): GC_CONCURRENT freed 925K, 16% free 9541K/11335K, paused 2ms+2ms
+10-14 11:03:55.860: I/DRS 3 Player(20028): Radio. Im Internet unter www.drs3.ch.: DRS 3, Dein Live
+10-14 11:03:55.865: I/de.umass.lastfm.Caller(20028): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:03:55.905: I/de.umass.lastfm.Caller(20028): Post body: method=track.search&track=Radio.+Im+Internet+unter+www.drs3.ch.&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=DRS+3%2C+Dein+Live
+10-14 11:03:56.685: I/de.umass.lastfm.Caller(20028): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:03:56.725: I/de.umass.lastfm.Caller(20028): Post body: method=artist.search&api_key=49175f0086374abc087b4774bc075343&artist=DRS+3%2C+Dein+Live
+10-14 11:03:57.070: E/DRS 3 Player(20028): de.umass.lastfm.CallException: org.xml.sax.SAXParseException: Unexpected token (position:TEXT {"nowplaying":{"...@2:1 in java.io.InputStreamReader@4156f5e8) 
+10-14 11:03:57.070: E/DRS 3 Player(20028): de.umass.lastfm.CallException: org.xml.sax.SAXParseException: Unexpected token (position:TEXT {"nowplaying":{"...@2:1 in java.io.InputStreamReader@4156f5e8) 
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at de.umass.lastfm.Caller.call(Caller.java:268)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at de.umass.lastfm.Caller.call(Caller.java:189)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at de.umass.lastfm.Caller.call(Caller.java:185)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at de.umass.lastfm.Artist.search(Artist.java:156)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at ch.icaros.drs3.LastFmCoverSearch.searchCover(LastFmCoverSearch.java:34)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at ch.icaros.drs3.MainActivity$DownloadCoverPicture.doInBackground(MainActivity.java:125)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at ch.icaros.drs3.MainActivity$DownloadCoverPicture.doInBackground(MainActivity.java:1)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at android.os.AsyncTask$2.call(AsyncTask.java:264)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:208)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at java.lang.Thread.run(Thread.java:856)
+10-14 11:03:57.070: E/DRS 3 Player(20028): Caused by: org.xml.sax.SAXParseException: Unexpected token (position:TEXT {"nowplaying":{"...@2:1 in java.io.InputStreamReader@4156f5e8) 
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at org.apache.harmony.xml.parsers.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:146)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at de.umass.lastfm.Caller.createResultFromInputStream(Caller.java:324)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	at de.umass.lastfm.Caller.call(Caller.java:256)
+10-14 11:03:57.070: E/DRS 3 Player(20028): 	... 13 more
+10-14 11:03:57.180: D/dalvikvm(20028): GC_CONCURRENT freed 317K, 16% free 9609K/11335K, paused 4ms+3ms
+10-14 11:03:57.230: D/dalvikvm(20028): GC_CONCURRENT freed <1K, 11% free 10114K/11335K, paused 2ms+3ms
+10-14 11:03:58.730: D/dalvikvm(20028): GC_CONCURRENT freed 927K, 16% free 9577K/11335K, paused 2ms+2ms
+10-14 11:03:58.735: I/DRS 3 Player(20028): Radio. Im Internet unter www.drs3.ch.: DRS 3, Dein Live
+10-14 11:03:58.740: I/de.umass.lastfm.Caller(20028): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:03:58.785: I/de.umass.lastfm.Caller(20028): Post body: method=track.search&track=Radio.+Im+Internet+unter+www.drs3.ch.&limit=30&api_key=49175f0086374abc087b4774bc075343&artist=DRS+3%2C+Dein+Live
+10-14 11:03:59.275: I/de.umass.lastfm.Caller(20028): Open connection: http://ws.audioscrobbler.com/2.0/
+10-14 11:03:59.320: I/de.umass.lastfm.Caller(20028): Post body: method=artist.search&api_key=49175f0086374abc087b4774bc075343&artist=DRS+3%2C+Dein+Live
+10-14 11:03:59.875: D/dalvikvm(20028): GC_FOR_ALLOC freed 249K, 16% free 9605K/11335K, paused 26ms
+10-14 11:03:59.915: D/dalvikvm(20028): GC_CONCURRENT freed 1K, 11% free 10110K/11335K, paused 3ms+2ms

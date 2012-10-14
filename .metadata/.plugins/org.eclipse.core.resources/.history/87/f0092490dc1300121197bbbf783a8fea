@@ -1,0 +1,5 @@
+package ch.icaros.digitalradio;
+
+public class EasyHttpClient {
+
+}

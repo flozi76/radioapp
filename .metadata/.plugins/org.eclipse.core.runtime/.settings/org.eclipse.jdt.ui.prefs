@@ -1,0 +1,20 @@
+breadcrumb.org.eclipse.debug.ui.DebugPerspective=true
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="android.content.ComponentCallbacks"><rhs name\="ch.icaros.digitalradio.Drs3RadioFragment"/></lhs><lhs name\="android.view.View$OnCreateContextMenuListener"><rhs name\="ch.icaros.digitalradio.Drs3RadioFragment"/></lhs><lhs name\="android.support.v4.app.Fragment"><rhs name\="ch.icaros.digitalradio.Drs3RadioFragment"/></lhs><lhs name\="android.media.MediaPlayer"><rhs name\="android.media.MediaPlayer"/></lhs><lhs name\="org.apache.http.impl.client.DefaultHttpClient"><rhs name\="ch.icaros.digitalradio.EasyHttpClient"/></lhs><lhs name\="org.apache.http.impl.client.AbstractHttpClient"><rhs name\="ch.icaros.digitalradio.EasyHttpClient"/></lhs><lhs name\="org.apache.http.client.HttpClient"><rhs name\="ch.icaros.digitalradio.EasyHttpClient"/></lhs><lhs name\="ch.icaros.digitalradio.EasyHttpClient"><rhs name\="ch.icaros.digitalradio.EasyHttpClient"/></lhs><lhs name\="ch.icaros.digitalradio.IcyStreamMeta"><rhs name\="ch.icaros.digitalradio.IcyStreamMeta"/></lhs><lhs name\="ch.icaros.digitalradio.Drs3RadioFragment$DownloadWebPageTask"><rhs name\="ch.icaros.digitalradio.Drs3RadioFragment$DownloadWebPageTask"/></lhs><lhs name\="com.amazonaws.services.s3.AmazonS3"><rhs name\="com.amazonaws.services.s3.AmazonS3Client"/></lhs><lhs name\="com.amazonaws.AmazonWebServiceClient"><rhs name\="com.amazonaws.services.s3.AmazonS3Client"/></lhs><lhs name\="com.amazonaws.services.s3.AmazonS3Client"><rhs name\="com.amazonaws.services.s3.AmazonS3Client"/></lhs><lhs name\="java.lang.Readable"><rhs name\="java.io.InputStreamReader"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.io.FileOutputStream"/><rhs name\="java.io.InputStreamReader"/></lhs><lhs name\="java.io.Reader"><rhs name\="java.io.InputStreamReader"/></lhs><lhs name\="ch.icaros.test.GoogleCoverSearch"><rhs name\="ch.icaros.test.GoogleCoverSearch"/></lhs><lhs name\="de.umass.lastfm.ImageHolder"><rhs name\="de.umass.lastfm.Artist"/></lhs><lhs name\="de.umass.lastfm.MusicEntry"><rhs name\="de.umass.lastfm.Artist"/></lhs><lhs name\="java.lang.Enum"><rhs name\="de.umass.lastfm.ImageSize"/></lhs><lhs name\="ch.icaros.test.LastFmCoverSearch"><rhs name\="ch.icaros.test.LastFmCoverSearch"/></lhs><lhs name\="ch.icaros.digitalradio.LastFmCoverSearch"><rhs name\="ch.icaros.digitalradio.LastFmCoverSearch"/></lhs><lhs name\="ch.icaros.digitalradio.Drs3RadioFragment$DownloadAlbumPicture"><rhs name\="ch.icaros.digitalradio.Drs3RadioFragment$DownloadAlbumPicture"/></lhs><lhs name\="de.umass.lastfm.cache.Cache"><rhs name\="ch.icaros.digitalradio.LastFmVoidCache"/></lhs><lhs name\="java.lang.CharSequence"><rhs name\="java.lang.String"/></lhs><lhs name\="java.io.Flushable"><rhs name\="java.io.FileOutputStream"/></lhs><lhs name\="java.io.OutputStream"><rhs name\="java.io.FileOutputStream"/></lhs><lhs name\="ch.icaros.drs3.storage.FileStorage"><rhs name\="ch.icaros.drs3.storage.FileStorage"/></lhs></history>
+content_assist_number_of_computers=13
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+fontPropagated=true
+org.eclipse.jdt.ui.editor.tab.width=
+org.eclipse.jdt.ui.formatterprofiles.version=12
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.templates_migrated=true
+org.eclipse.jface.textfont=1|Consolas|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Consolas;
+proposalOrderMigrated=true
+spelling_locale_initialized=true
+tabWidthPropagated=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

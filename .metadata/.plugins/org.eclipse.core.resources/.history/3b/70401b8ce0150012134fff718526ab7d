@@ -1,0 +1,61 @@
+package ch.icaros.drs3;
+
+import java.io.IOException;
+
+import android.app.Service;
+import android.content.Intent;
+import android.media.MediaPlayer;
+import android.os.IBinder;
+import android.util.Log;
+import android.widget.Toast;
+
+public class Drs3OnAirService extends Service {
+
+	private static final String TAG = "Drs3 On Air Service";
+	MediaPlayer mediaPlayer;
+	
+	@Override
+	public IBinder onBind(Intent intent) {
+		return null;
+	}
+	
+	@Override
+	public void onCreate() {
+		Toast.makeText(this, "My Service Created", Toast.LENGTH_LONG).show();
+		Log.d(TAG, "onCreate");
+		try {
+			String audioFile = "http://zlz-stream11.streamserver.ch/2/drs3/mp3_128";
+			mediaPlayer = new MediaPlayer();	
+			mediaPlayer.setDataSource(audioFile);
+			mediaPlayer.prepareAsync();
+			mediaPlayer.setLooping(false); // Set looping
+		} catch (IllegalArgumentException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SecurityException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IllegalStateException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	public void onDestroy() {
+		Toast.makeText(this, TAG + " Stopped", Toast.LENGTH_LONG).show();
+		Log.d(TAG, "onDestroy");
+		mediaPlayer.stop();
+	}
+	
+	@Override
+	public void onStart(Intent intent, int startid) {
+		Toast.makeText(this, TAG + " Started", Toast.LENGTH_LONG).show();
+		Log.d(TAG, "onStart");
+//		mediaPlayer.start();
+	}
+
+}
