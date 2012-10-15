@@ -13,6 +13,7 @@ import android.widget.Toast;
 public class Drs3OnAirService extends Service implements OnPreparedListener {
 
 	private static final String TAG = "Drs3 On Air";
+	private static boolean isRunning;
 	MediaPlayer mediaPlayer;
 	
 	@Override
@@ -40,13 +41,14 @@ public class Drs3OnAirService extends Service implements OnPreparedListener {
 		Toast.makeText(this, TAG + " Stopped", Toast.LENGTH_LONG).show();
 		Log.d(TAG, "onDestroy");
 		mediaPlayer.stop();
+		isRunning = false;
 	}
 	
 	@Override
 	public void onStart(Intent intent, int startid) {
 		Toast.makeText(this, "Connecting " + TAG, Toast.LENGTH_LONG).show();
 		Log.d(TAG, "onStart");
-//		mediaPlayer.start();
+		isRunning = true;
 	}
 
 	@Override
@@ -59,5 +61,10 @@ public class Drs3OnAirService extends Service implements OnPreparedListener {
 		}
 		
 	}
+	
+	public static boolean isRunning()
+    {
+        return isRunning;
+    }
 
 }

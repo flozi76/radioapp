@@ -32,16 +32,17 @@ public final class R {
     }
     public static final class id {
         public static final int LinearLayout1=0x7f080000;
-        public static final int RelativeLayout1=0x7f080006;
-        public static final int imageButton1=0x7f080008;
-        public static final int imageButton2=0x7f080007;
+        public static final int RelativeLayout1=0x7f080007;
+        public static final int ad=0x7f080006;
+        public static final int imageButton1=0x7f080009;
+        public static final int imageButton2=0x7f080008;
         public static final int imageButtonAddToList=0x7f080002;
-        public static final int imageButtonMain=0x7f080009;
+        public static final int imageButtonMain=0x7f08000a;
         public static final int imageButtonStartStop=0x7f080005;
         public static final int imageButtonViewList=0x7f080001;
         public static final int imageViewCover=0x7f080004;
-        public static final int listViewSongs=0x7f08000a;
-        public static final int menu_settings=0x7f08000b;
+        public static final int listViewSongs=0x7f08000b;
+        public static final int menu_settings=0x7f08000c;
         public static final int textViewSong=0x7f080003;
     }
     public static final class layout {

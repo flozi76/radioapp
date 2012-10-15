@@ -3,6 +3,9 @@ package ch.icaros.drs3;
 import java.io.InputStream;
 import java.net.URL;
 
+import com.google.ads.AdRequest;
+import com.google.ads.AdView;
+
 import ch.icaros.drs3.storage.FileStorage;
 
 import android.os.AsyncTask;
@@ -42,11 +45,22 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		try {
 			setContentView(R.layout.activity_main);
+			
 			imageButtonstartStopMusic = (ImageButton) findViewById(R.id.imageButtonStartStop);
 			imageButtonsAddSongToList = (ImageButton) findViewById(R.id.imageButtonAddToList);
 			imageButtonShowSongList = (ImageButton) findViewById(R.id.imageButtonViewList);
 			textViewSongTitle = (TextView) findViewById(R.id.textViewSong);
 
+			onAir = Drs3OnAirService.isRunning();
+			
+			if (onAir) {
+				imageButtonstartStopMusic
+						.setImageResource(R.drawable.stop);
+			} else {
+				imageButtonstartStopMusic
+						.setImageResource(R.drawable.start);
+			}
+			
 			imageButtonstartStopMusic
 					.setOnClickListener(new View.OnClickListener() {
 						public void onClick(View v) {
@@ -54,16 +68,17 @@ public class MainActivity extends Activity {
 							try {
 								loadCurrentCover();
 
+								onAir = Drs3OnAirService.isRunning();
+								
 								if (onAir) {
 									imageButtonstartStopMusic
-											.setImageResource(R.drawable.stop);
+											.setImageResource(R.drawable.start);
 									this.stopMusicService();
 								} else {
 									imageButtonstartStopMusic
-											.setImageResource(R.drawable.start);
+											.setImageResource(R.drawable.stop);
 									this.startMusicService();
 								}
-								onAir = !onAir;
 
 							} catch (Exception e) {
 								Log.e(TAG, e.toString(), e);

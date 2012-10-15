@@ -51,5 +51,14 @@
         android:layout_height="wrap_content"
         android:background="@null"
         android:src="@drawable/start" />
+    
+    <com.google.ads.AdView
+         xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads" 
+        	android:id="@+id/ad"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           ads:adSize="BANNER"
+                           ads:adUnitId="a1507c390b959e1"
+                           ads:loadAdOnCreate="true"/>
 
 </LinearLayout>
