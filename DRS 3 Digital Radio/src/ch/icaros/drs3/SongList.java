@@ -8,16 +8,19 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ListView;
 import android.support.v4.app.NavUtils;
 
 public class SongList extends Activity {
 
 	private ImageButton imageButtonMain;
+	private ListView songList;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_song_list);
 
+        songList = (ListView)findViewById(R.id.listViewSongs);
         imageButtonMain = (ImageButton)findViewById(R.id.imageButtonMain);
         imageButtonMain.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
@@ -31,9 +34,16 @@ public class SongList extends Activity {
 				}
 			}
 		});
+        
+        this.populateList();
     }
 
-    @Override
+    private void populateList() {
+		this.songList;
+		
+	}
+
+	@Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.activity_song_list, menu);
         return true;

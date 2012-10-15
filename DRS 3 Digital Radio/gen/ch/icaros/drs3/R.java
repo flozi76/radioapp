@@ -40,7 +40,8 @@ public final class R {
         public static final int imageButtonStartStop=0x7f080005;
         public static final int imageButtonViewList=0x7f080001;
         public static final int imageViewCover=0x7f080004;
-        public static final int menu_settings=0x7f08000a;
+        public static final int listViewSongs=0x7f08000a;
+        public static final int menu_settings=0x7f08000b;
         public static final int textViewSong=0x7f080003;
     }
     public static final class layout {
