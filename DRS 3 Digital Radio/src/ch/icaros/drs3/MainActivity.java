@@ -166,21 +166,23 @@ public class MainActivity extends Activity {
 					String artist = meta.getArtist();
 					String streamTitle = meta.getStreamTitle();
 					response += streamTitle;
-					currentSong = streamTitle;
-					Log.i(TAG, title + ": " + artist);
+					if (currentLogo != streamTitle) {
+						currentSong = streamTitle;
+						Log.i(TAG, title + ": " + artist);
 
-					LastFmCoverSearch search = new LastFmCoverSearch();
-					String urlCoverPicture = search.searchCover(title, artist);
-					currentLogo = urlCoverPicture;
+						LastFmCoverSearch search = new LastFmCoverSearch();
+						String urlCoverPicture = search.searchCover(title,
+								artist);
+						currentLogo = urlCoverPicture;
 
-					Object content = null;
-					image = null;
-					if(urlCoverPicture != null && urlCoverPicture != "")
-					{
-						URL urlCover = new URL(urlCoverPicture);
-						content = urlCover.getContent();
-						InputStream is = (InputStream) content;
-						image = Drawable.createFromStream(is, "src");
+						Object content = null;
+						image = null;
+						if (urlCoverPicture != null && urlCoverPicture != "") {
+							URL urlCover = new URL(urlCoverPicture);
+							content = urlCover.getContent();
+							InputStream is = (InputStream) content;
+							image = Drawable.createFromStream(is, "src");
+						}
 					}
 
 				} catch (Exception e) {
@@ -201,15 +203,11 @@ public class MainActivity extends Activity {
 
 				ImageView imageView = (ImageView) findViewById(R.id.imageViewCover);
 
-				if(image != null)
-				{
+				if (image != null) {
 					imageView.setImageDrawable(image);
-				}
-				else
-				{
+				} else {
 					imageView.setImageResource(R.drawable.drs3logo);
 				}
-				
 
 			} catch (Exception e) {
 				Log.e(TAG, e.toString(), e);

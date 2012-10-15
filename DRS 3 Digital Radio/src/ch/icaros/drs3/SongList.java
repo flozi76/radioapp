@@ -14,20 +14,21 @@ import android.support.v4.app.NavUtils;
 public class SongList extends Activity {
 
 	private ImageButton imageButtonMain;
-	private ListView songList;
+	private ListView listViewSongList;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_song_list);
 
-        songList = (ListView)findViewById(R.id.listViewSongs);
+        listViewSongList = (ListView)findViewById(R.id.listViewSongs);
         imageButtonMain = (ImageButton)findViewById(R.id.imageButtonMain);
         imageButtonMain.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
 				
 				try {
 					Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-		            startActivity(intent);
+//		            startActivity(intent);
+					finish();
 					
 				} catch (Exception e) {
 					Log.e(MainActivity.TAG, e.toString(), e);
@@ -39,7 +40,7 @@ public class SongList extends Activity {
     }
 
     private void populateList() {
-		this.songList;
+//		this.listViewSongList.get;
 		
 	}
 

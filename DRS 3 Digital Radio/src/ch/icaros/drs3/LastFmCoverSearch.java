@@ -16,7 +16,6 @@ public class LastFmCoverSearch {
 
 		try {
 			Caller.getInstance().setCache(null);
-
 			int limit = 30;
 
 			Collection<Track> chart1 = Track.search(artist, track, limit, key);
