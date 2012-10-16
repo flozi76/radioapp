@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="ch.icaros.digitalradio.R.layout"/>
-<fullyQualifiedTypeName name="ch.icaros.digitalradio.Drs3RadioFragment"/>
-<fullyQualifiedTypeName name="android.net.Uri"/>
-<fullyQualifiedTypeName name="android.view.View.OnTouchListener"/>
-<fullyQualifiedTypeName name="ch.icaros.digitalradio.EasyHttpClient"/>
-<fullyQualifiedTypeName name="ch.icaros.digitalradio.IcyStreamMeta"/>
-<fullyQualifiedTypeName name="ch.icaros.digitalradio.Drs3RadioFragment.DownloadWebPageTask"/>
 <fullyQualifiedTypeName name="android.widget.TextView"/>
-<fullyQualifiedTypeName name="android.widget.ImageButton"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="com.amazonaws.services.autoscaling.AmazonAutoScaling"/>
 <fullyQualifiedTypeName name="com.amazonaws.Request"/>
@@ -43,7 +35,6 @@
 <fullyQualifiedTypeName name="android.media.MediaPlayer"/>
 <fullyQualifiedTypeName name="android.widget.Toast"/>
 <fullyQualifiedTypeName name="android.content.Intent"/>
-<fullyQualifiedTypeName name="ch.icaros.drs3.Drs3OnAirService"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="android.content.Context"/>
 <fullyQualifiedTypeName name="android.media.MediaPlayer.OnPreparedListener"/>
@@ -54,10 +45,19 @@
 <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
 <fullyQualifiedTypeName name="java.io.OutputStreamWriter"/>
 <fullyQualifiedTypeName name="android.util.Log"/>
-<fullyQualifiedTypeName name="ch.icaros.drs3.storage.FileStorage"/>
 <fullyQualifiedTypeName name="java.io.FileInputStream"/>
 <fullyQualifiedTypeName name="java.io.InputStream"/>
 <fullyQualifiedTypeName name="java.io.BufferedReader"/>
 <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
 <fullyQualifiedTypeName name="ch.icaros.drs3.SongList"/>
+<fullyQualifiedTypeName name="android.widget.ImageButton"/>
+<fullyQualifiedTypeName name="ch.icaros.drs3.MainActivity"/>
+<fullyQualifiedTypeName name="android.widget.ListView"/>
+<fullyQualifiedTypeName name="com.google.ads.AdView"/>
+<fullyQualifiedTypeName name="com.google.ads.AdRequest"/>
+<fullyQualifiedTypeName name="ch.icaros.drs3.Drs3OnAirService"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="ch.icaros.drs3.storage.FileStorage"/>
+<fullyQualifiedTypeName name="android.widget.ArrayAdapter"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
 </qualifiedTypeNameHistroy>

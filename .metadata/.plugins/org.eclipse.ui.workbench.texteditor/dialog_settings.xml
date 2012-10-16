@@ -3,18 +3,19 @@
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="257" key="DIALOG_WIDTH"/>
 		<item value="275" key="DIALOG_Y_ORIGIN"/>
-		<item value="380" key="DIALOG_HEIGHT"/>
 		<item value="840" key="DIALOG_X_ORIGIN"/>
+		<item value="380" key="DIALOG_HEIGHT"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="isRegEx"/>
 		<item value="false" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="" key="selection"/>
+		<item value="&quot;&quot;" key="selection"/>
 		<list key="findhistory">
+			<item value="&quot;&quot;"/>
 			<item value="&#x0D;&#x0A;&#x09;&#x09;//Uri streamingURL = Uri.parse( &quot;http://zlz-stream11.streamserver.ch/2/drs3/mp3_128&quot;);&#x0D;&#x0A;&#x09;&#x09;&#x0D;&#x0A;&#x09;&#x09;&#x0D;&#x0A;&#x09;&#x09;try {&#x0D;&#x0A;//&#x09;&#x09;&#x09;MediaPlayer mediaPlayer = MediaPlayer.create(getActivity(), Uri.parse(streamingURL));&#x0D;&#x0A;//&#x09;&#x09;&#x09;mediaPlayer.setDataSource(streamingURL);&#x0D;&#x0A;//&#x09;&#x09;&#x09;String streamingURL = &quot;http://www.hrupin.com/wp-content/uploads/mp3/testsong_20_sec.mp3&quot;;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x0D;&#x0A;//&#x09;&#x09;&#x09;String streamingURL = &quot;http://stream.srg-ssr.ch/drs3/mp3_128.m3u&quot;;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x0D;&#x0A;//&#x09;&#x09;&#x09;mediaPlayer.prepare();&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x0D;&#x0A;&#x09;&#x09;} catch (Exception e) {&#x0D;&#x0A;&#x09;&#x09;&#x09;// TODO Auto-generated catch block&#x0D;&#x0A;&#x09;&#x09;&#x09;e.printStackTrace();&#x0D;&#x0A;&#x09;&#x09;}"/>
 			<item value="getActivity"/>
 		</list>

@@ -105,15 +105,14 @@ public class MainActivity extends Activity {
 
 							try {
 								FileStorage fileStorage = new FileStorage();
-								fileStorage.SaveToFile(currentSong + ";"
-										+ currentLogo);
-								Toast.makeText(getApplicationContext(),
-										" Song added to list",
-										Toast.LENGTH_LONG).show();
-								String songs = fileStorage.ReadFile();
-								Toast.makeText(getBaseContext(), songs,
-										Toast.LENGTH_LONG).show();
-
+								if(fileStorage.SaveToFile(currentSong + ";" + currentLogo))
+								{
+									Toast.makeText(getApplicationContext(),
+											"Song added to list",
+											Toast.LENGTH_LONG).show();
+								}
+								
+								
 							} catch (Exception e) {
 								Log.e(TAG, e.toString(), e);
 							}
@@ -186,8 +185,7 @@ public class MainActivity extends Activity {
 						Log.i(TAG, title + ": " + artist);
 
 						LastFmCoverSearch search = new LastFmCoverSearch();
-						String urlCoverPicture = search.searchCover(title,
-								artist);
+						String urlCoverPicture = search.searchCover(title, artist);
 						currentLogo = urlCoverPicture;
 
 						Object content = null;

@@ -9,18 +9,18 @@
         android:id="@+id/RelativeLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
-
+
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/imageButtonDeleteFile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
             android:background="@null"
             android:src="@drawable/cancel" />
-
+
         <ImageButton
-            android:id="@+id/imageButton1"
+            android:id="@+id/imageButtonSendItems"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -42,7 +42,9 @@
     <ListView
         android:id="@+id/listViewSongs"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+		android:textSize="7pt"
+		android:paddingLeft="6dip">
 
     </ListView>
 
